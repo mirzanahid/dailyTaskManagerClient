@@ -1,0 +1,27 @@
+.addTask {
+    padding-top: 100px;
+}
+
+.addTask-btn {
+    background-color: #7880FF;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 35px;
+}
+
+.submit-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: 500;
+    border: none;
+    background-color: #7880FF;
+    color: #fff;
+}
+.addTaskForm label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+
+}
