@@ -43,7 +43,7 @@ const AddTask = () => {
                         status: "uncompleted",
                         time: new Date()
                     }
-                    fetch('http://localhost:5000/addTask', {
+                    fetch('https://daily-task-manager-server-mirzanahid.vercel.app/addTask', {
                         method: 'POST',
                         headers: {
                             'content-type': "application/json"
