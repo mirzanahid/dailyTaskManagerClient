@@ -4,6 +4,8 @@ import Main from '../layout/Main';
 import AddTask from '../pages/AddTask/AddTask';
 import ComTasks from '../pages/ComTasks/ComTasks';
 import MyTasks from '../pages/MyTasks/MyTasks';
+import Login from '../pages/shared/Login/Login';
+import SignUp from '../pages/shared/SignUp/SignUp';
 
 export const router = createBrowserRouter([
       {
@@ -21,6 +23,14 @@ export const router = createBrowserRouter([
             {
                 path: '/cTask',
                 element: <ComTasks></ComTasks>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/signup',
+                element: <SignUp></SignUp>
             }
         ]
       }

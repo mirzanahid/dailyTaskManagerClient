@@ -11,7 +11,10 @@
     font-size: 20px;
     font-weight: 600;
 }
-
+.navbar-items{
+    display: flex;
+    align-items: center;
+}
 .navbar-items a {
     font-size: 18px;
     font-weight: 500;
@@ -23,4 +26,21 @@
 
 .navbar-items a:hover {
     color: #7880FF !important;
+}
+
+.login-btn{
+    background: #7880FF !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 25px;
+    border: 1px solid #7880FF;
+}
+
+.login-btn:hover{
+    color: #7880FF !important;
+    border: 1px solid #7880FF !important;
+    background-color: transparent !important;
 }
