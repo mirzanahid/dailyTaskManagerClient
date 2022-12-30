@@ -7,9 +7,15 @@
     background-color: #fff;
 }
 
-.navbar .logo {
-    font-size: 20px;
+.navbar .logo a {
+    font-size: 22px;
     font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    
+}
+.navbar .logo a:hover{
+    color: #000;
 }
 .navbar-items{
     display: flex;

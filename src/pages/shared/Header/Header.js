@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" className='navbar'>
       <Container>
-        <Navbar.Brand className='logo'>Daily Task Manager</Navbar.Brand>
+        <Navbar.Brand className='logo'><Link to='/'>Daily Task Manager</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbar-items" >
